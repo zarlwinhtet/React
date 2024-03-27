@@ -1,9 +1,11 @@
+import JobListings from "../components/JobListings";
+
 const JobsPage = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <section className="bg-black-50 px-4 py-6">
+      <JobListings />
+    </section>
+  );
+};
 
-export default JobsPage
+export default JobsPage;
